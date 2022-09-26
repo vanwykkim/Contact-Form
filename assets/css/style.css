@@ -11,18 +11,19 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #0b8d82;
     color: #ffffff;
+    position: fixed;
+    top: 0;
+    width: 100%
 }
+
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
 
 .header nav {
     padding-top: 15px;
