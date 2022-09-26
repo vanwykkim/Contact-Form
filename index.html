@@ -40,11 +40,21 @@
             <button type="button" class="button" onclick="myThankYou()"> Get Thank You!</button>
         </section>
         <section id="contact-form-entry" class="contact-form-entry">
-            <img src="./assets/images/online-reputation-management.jpg" alt="Image of laptop, screen says reputation" class="float-right" />
             <h2>Contact Entry</h2>
             <p>
-                The form will go here.
+                ENTER YOUR CONTACT INFO:
             </p>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="fname"><br><br>
+                <label for="pnum">Phone Number:</label>
+                <input type="text" id="pnum" name="pnum"><br><br>
+              </form>
+            <button type="button" class="button" onclick="mySend()"> Send Contact</button>
         </section>
 
     </main>
