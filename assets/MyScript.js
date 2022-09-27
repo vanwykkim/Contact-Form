@@ -12,7 +12,14 @@ function myThankYou() {
 function mySend(){
     fName = document.getElementById("fname").value;
     lName = document.getElementById("lname").value;
-    window.alert("You have saved the contact " + fName +" "+ lName);
+    if(fName=='' | lName == ''){
+        window.alert("You need a valid first and last name to save.");
+   // } else if(lName==''){
+   //      window.alert("You need a valid first and last name to save.");
+    } else{
+        window.alert("You have saved the contact " + fName +" "+ lName);
+    }
+    
     document.getElementById("fname").value = '';
     document.getElementById("lname").value = '';
     document.getElementById("email").value = '';
